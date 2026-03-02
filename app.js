@@ -1,4 +1,6 @@
 import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+dotenv.config();
 import express from 'express';
 
 import eventRoutes from './routes/events.js';
